@@ -1,0 +1,390 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+}
+.sidebar{
+height: 96vh;
+width: 20%;
+background-color: rgba(19, 17, 17, 0.836);
+padding-left: 2%;
+padding-top: 2%;
+position: fixed;
+}
+@media(orientation:portrait){
+  .sidebar{
+     display: none;
+  }
+}
+.sidebar img{
+width: 200px;
+border-radius: 50%;
+border: 3px solid rgb(255, 145, 0);
+}
+.sidebar h1{
+color: rgb(255, 145, 0);
+padding-left: 7%;
+padding-top: 1%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar p{
+color: white;
+padding-left: 7%;
+padding-top: 1%;
+font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+padding-top: 5%;
+}
+.links  button{
+background-color: rgba(68, 58, 58, 0.363);
+height: 50px;
+width: 250px;
+border: 0;
+border-radius: 20px;
+color: white;
+cursor: pointer;
+}
+.links button:hover{
+background-color: rgb(255, 145, 0);
+}
+.links a{
+text-decoration: none;
+color: white;
+cursor: pointer;
+
+}
+
+/* ------home----- */
+
+.home{
+    height: 100vh;
+ }
+  .homeheading{
+    color:rgb(255, 145, 0) ;
+    padding-left: 25%;
+    padding-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-bottom: 1px solid rgba(170, 156, 156, 0.363);
+    font-weight:900;
+    display: flex;
+    align-items: center;
+  }
+  .homeheading img{
+    cursor: pointer;
+   
+  }
+  .hm{
+    display: flex;
+    align-items: center;
+  }
+  @media(orientation:portrait){
+    .homepart1{
+       display: flex;
+    }
+    .homepart1 button{
+      display: none;
+    }
+    
+  }
+  .homepart3{
+    padding-top: 60px;
+  }
+  .homepart3 img{
+    border-radius: 50%;
+    border: 3px solid rgb(255, 145, 0);
+  
+  }
+    .homepart1{
+    padding-left: 30%;
+    padding-top: 7%;
+    font-size: larger;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  }
+
+  .homepart1 button{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color:rgba(68, 58, 58, 0.363) ;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+   border-bottom: 5px solid  rgb(255, 145, 0);
+   border-right: 5px solid  rgb(255, 145, 0);
+   border-top: 1px solid  rgb(255, 145, 0);
+   border-left: 1px solid  rgb(255, 145, 0);
+  }
+  .homepart1 button:hover{
+    background-color: rgb(255, 145, 0) ;
+    border-bottom: 5px solid  rgba(68, 58, 58, 0.363);
+    border-right: 5px solid  rgba(68, 58, 58, 0.363);
+    border-top: 1px solid  rgba(68, 58, 58, 0.363);
+    border-left: 1px solid  rgba(68, 58, 58, 0.363);
+  }
+  .homepart1 button a{
+    text-decoration: none;
+    color: white;
+  }
+  .home  p{
+    color: white;
+    padding: 10px;
+  }
+  .home .name{
+    color: white;
+    padding: 5px;
+  }
+  .home h1 span{
+    color: rgb(255, 145, 0);
+  }
+  .homelines span{
+    color: rgb(255, 145, 0);
+  }
+
+
+  /* -----about----- */
+  .about{
+    height: 100vh;
+ }
+  .aboutheading{
+    color:rgb(255, 145, 0) ;
+    padding-left: 25%;
+    padding-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border-bottom: 1px solid rgba(68, 58, 58, 0.363);
+    font-weight:900;
+    display: flex;
+    align-items: center;
+  }
+  .aboutheading img{
+  
+    cursor: pointer;
+  }
+  .aboutpart{
+    padding-left: 35%;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .aboutpart1 p{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    background-color:rgba(68, 58, 58, 0.363) ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width: 700px;
+  }
+  .aboutpart1 a{
+    color: white;
+    text-decoration: none;
+  }
+  .btn{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color:rgba(68, 58, 58, 0.363) ;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+
+  }
+  .aboutpart1 .btn:hover{
+    background-color:rgb(255, 145, 0) ;
+  }
+  
+  .aboutpart1 span{
+    color:rgb(255, 145, 0) ;
+  }
+ 
+
+  /* ------education------ */
+
+  .education{
+    height: 100vh;
+ }
+  .educationheading{
+    color:rgb(255, 145, 0) ;
+    padding-left: 25%;
+    padding-top: 5%;
+    border-bottom: 1px solid rgba(68, 58, 58, 0.363);
+    display: flex;
+    align-items: center;
+  }
+  .educationheading img{
+   
+    cursor: pointer;
+  }
+  .educationpart{
+    padding-left: 25%;
+    padding-top: 6%;
+  }
+  .edu1{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+  }
+  .edu2{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+  }
+ 
+  .edu1 h1{
+    color:rgb(255, 145, 0) ;
+  }
+  .edu2 h1{
+    color:rgb(255, 145, 0) ;
+  }
+  .edu11,.edu12{
+    background-color: rgba(68, 58, 58, 0.363);
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    padding-right: 30px;
+  }
+  .edu21,.edu22{
+    background-color: rgba(68, 58, 58, 0.363);
+    height: 160px;
+    /* padding-right: 3px; */
+    padding-top: 30px;
+    padding-left: 5px;
+    border-radius: 20px;
+  }
+  .edu11 p{
+    padding: 6px;
+    color: white;
+  }
+  .edu12 p{
+    padding: 6px;
+    color: white;
+  }
+  .edu21 p{
+    padding: 6px;
+    color: white;
+  }
+  .edu22 p{
+    padding: 6px;
+    color: white;
+  }
+  p span{
+    color: rgb(255, 145, 0);
+  }
+
+/* ------skills------ */
+  .skills{
+    height: 100vh;
+ }
+  .skillsheading{
+    color:rgb(255, 145, 0) ;
+    padding-left: 25%;
+    padding-top: 5%;
+    border-bottom: 1px solid rgba(68, 58, 58, 0.363);
+    font-weight:900;
+    display: flex;
+    align-items: center;
+  }
+  .skillsheading img{
+   
+    cursor: pointer;
+  }
+  .skillspart{
+    padding-left: 35%;
+    padding-top: 8%;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+  }
+  .skillspart1 p{
+    color: white;
+    background-color:rgba(68, 58, 58, 0.363) ;
+    height: 30px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+  .skillspart2 img{
+    border-radius: 50%;
+  }
+
+  /* ------contact------ */
+
+  .contact{
+    height: 100vh;
+ }
+  .contactheading{
+    color:rgb(255, 145, 0) ;
+    padding-left: 25%;
+    padding-top: 5%;
+    border-bottom: 1px solid rgba(68, 58, 58, 0.363);
+    font-weight:900;
+    display: flex;
+    align-items: center;
+  }
+  .contactheading img{
+    
+    cursor: pointer;
+  }
+  .contactpart{
+    padding-left: 35%;
+    padding-top: 6%;
+    font-size: larger;
+    padding-bottom: 20px;
+    
+  }
+  
+  .contactpart p{
+    background-color: rgba(68, 58, 58, 0.363);
+    color:rgb(255, 145, 0)  ;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 600px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+  }
+  .contactpart p img{
+    padding-right: 30px;
+  }
+
+
+     /* <!-- ----menu---- --> */
+     .h{
+      padding-left: 23%;
+      padding-top: 7px;
+      display: none;
+  }
+  .h a{
+      color: white;
+      text-decoration: none;
+      padding-left: 20px;
+  }
+  .h button{
+      background-color: rgba(68, 58, 58, 0.363);
+      height: 60px;
+      width: 250px;
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 0;
+  }
+  button img{
+      border-radius: 50%;;
+  }
+  #close1,#close2,#close3,#close4,#close5{
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+   
+  }
+  .h button:hover{
+      background-color: rgb(255, 145, 0);
+  }
+  
